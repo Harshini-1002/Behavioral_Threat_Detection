@@ -1,0 +1,4 @@
+{
+  "summary": "Automated test suite verifying MongoDB connection, user registration, password hashing, and JWT login.",
+  "updatedAt": "2026-09-15T04:40:18.757356600Z"
+}

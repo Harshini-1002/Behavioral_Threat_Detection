@@ -1,0 +1,5 @@
+{
+  "summary": "Feature attribution and explainability service (SHAP-inspired) decomposing anomaly scores into top driving factors.",
+  "updatedAt": "2026-09-08T05:47:16.535958100Z",
+  "userFacing": true
+}

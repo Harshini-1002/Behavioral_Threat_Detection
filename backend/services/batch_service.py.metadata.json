@@ -1,0 +1,4 @@
+{
+  "summary": "Enhanced batch_service.py with automatic ledger transaction-level aggregation, computing 16 behavioral features from raw transactions.",
+  "updatedAt": "2026-09-08T06:51:41.412032800Z"
+}

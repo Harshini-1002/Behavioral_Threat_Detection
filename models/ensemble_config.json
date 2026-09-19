@@ -1,0 +1,110 @@
+{
+    "features": [
+        "Avg_min_between_sent",
+        "Avg_min_between_rec",
+        "Active_Span_Mins",
+        "Sent_tnx",
+        "Received_tnx",
+        "Created_Contracts",
+        "Uniq_Rec_Addr",
+        "Uniq_Sent_Addr",
+        "Avg_Val_Rec",
+        "Avg_Val_Sent",
+        "Total_ETH_Rec",
+        "Total_ETH_Sent",
+        "Ether_Balance",
+        "Total_ERC20_tnx",
+        "ERC20_Total_Rec",
+        "ERC20_Total_Sent"
+    ],
+    "weights": {
+        "isolation_forest": 0.25,
+        "autoencoder": 0.25,
+        "one_class_svm": 0.15,
+        "gan": 0.15,
+        "hdbscan": 0.08,
+        "dbscan": 0.05,
+        "graph": 0.05,
+        "kmeans": 0.02
+    },
+    "threshold": 0.4198641989366798,
+    "severity_cutoffs": {
+        "low": 0.33589135914934387,
+        "medium": 0.4198641989366798,
+        "high": 0.6519185193620078
+    },
+    "benchmarks": {
+        "gan": {
+            "name": "GAN (AnoGAN)",
+            "accuracy": 0.9989,
+            "precision": 0.989,
+            "recall": 1.0,
+            "f1": 0.9945,
+            "roc_auc": 1.0
+        },
+        "autoencoder": {
+            "name": "Deep Autoencoder",
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "roc_auc": 1.0
+        },
+        "one_class_svm": {
+            "name": "One-Class SVM",
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "roc_auc": 1.0
+        },
+        "kmeans": {
+            "name": "K-Means Clustering",
+            "accuracy": 0.9933,
+            "precision": 0.9375,
+            "recall": 1.0,
+            "f1": 0.9677,
+            "roc_auc": 0.9993
+        },
+        "dbscan": {
+            "name": "DBSCAN Density",
+            "accuracy": 0.9878,
+            "precision": 0.9072,
+            "recall": 0.9778,
+            "f1": 0.9412,
+            "roc_auc": 0.9953
+        },
+        "hdbscan": {
+            "name": "HDBSCAN Reachability",
+            "accuracy": 0.9856,
+            "precision": 0.9053,
+            "recall": 0.9556,
+            "f1": 0.9297,
+            "roc_auc": 0.9943
+        },
+        "isolation_forest": {
+            "name": "Isolation Forest",
+            "accuracy": 0.9622,
+            "precision": 0.7414,
+            "recall": 0.9556,
+            "f1": 0.835,
+            "roc_auc": 0.9785
+        },
+        "graph": {
+            "name": "Behavioral Graph Model",
+            "accuracy": 0.8489,
+            "precision": 0.3663,
+            "recall": 0.7,
+            "f1": 0.4809,
+            "roc_auc": 0.8722
+        },
+        "ensemble": {
+            "name": "Weighted Ensemble",
+            "accuracy": 0.9989,
+            "precision": 0.989,
+            "recall": 1.0,
+            "f1": 0.9945,
+            "roc_auc": 1.0
+        }
+    }
+}

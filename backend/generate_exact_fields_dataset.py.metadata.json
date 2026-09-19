@@ -1,0 +1,4 @@
+{
+  "summary": "Script to generate dataset with strictly the 6 exact fields requested by the user: account no, tansaction id, time stamp, sent amount, recieved amount, total time duration of transaction.",
+  "updatedAt": "2026-09-08T07:01:04.603585400Z"
+}

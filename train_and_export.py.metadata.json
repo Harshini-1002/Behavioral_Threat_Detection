@@ -1,0 +1,5 @@
+{
+  "summary": "Script to train all 8 models and persist all model weights, scalers, and ensemble configs to the models/ directory.",
+  "updatedAt": "2026-09-08T05:25:52.030721600Z",
+  "userFacing": true
+}

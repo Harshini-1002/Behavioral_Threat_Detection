@@ -1,0 +1,5 @@
+{
+  "summary": "SQLite database connection, schema creation, query helpers, and initial seed data for the prediction history.",
+  "updatedAt": "2026-09-08T05:27:12.559990300Z",
+  "userFacing": true
+}

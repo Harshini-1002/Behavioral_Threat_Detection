@@ -1,0 +1,5 @@
+{
+  "summary": "Ensemble service that normalizes scores using saved scalers and computes the weighted composite score and threat tier.",
+  "updatedAt": "2026-09-08T05:27:51.208154Z",
+  "userFacing": true
+}

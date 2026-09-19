@@ -1,0 +1,5 @@
+{
+  "summary": "Model loader that loads all 8 serialized models, scalers, and config once at server startup.",
+  "updatedAt": "2026-09-08T05:27:31.980562300Z",
+  "userFacing": true
+}
